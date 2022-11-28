@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ScriptData</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<h1> Historical Data Page </h1>
+
+<h5>This page is to get historical data for any stock on NSE</h5>
+
+<div class="data">
+
+<div>
+    <label for:symbol>Enter the symbol of stock</label>
+    <input type="text" id="sym" name="symbol">
+</div>
+
+
+<div class="startdate">
+        <p>Start Date</p>    
+        <label for:startDate>Year</label>     
+        <input type=number id="sdate" name="startDate">
+
+        <label for:startDate> Month</label>     
+        <input type=number id="sdate" name="startDate">
+
+        <label for:startDate> Day</label>     
+        <input type=number id="sdate" name="startDate">
+</div>
+
+
+<div="enddate">
+    <p>End Date</p>
+    <label for:endDate>Year</label>     
+    <input type=number id="edate" name="endDate">
+    
+    <label for:endDate> Month</label>     
+    <input type=number id="edate" name="endDate">
+    
+    <label for:endDate> Day</label>     
+    <input type=number id="edate" name="endDate">
+</div>
+
+<!-- <input type="text" name="input" placeholder="YYYY-MM-DD" required pattern="(?:19|20)\[0-9\]{2}-(?:(?:0\[1-9\]|1\[0-2\])/(?:0\[1-9\]|1\[0-9\]|2\[0-9\])|(?:(?!02)(?:0\[1-9\]|1\[0-2\])/(?:30))|(?:(?:0\[13578\]|1\[02\])-31))" title="Enter a date in this format YYYY/MM/DD"/> -->
+
+<div class="dataBtn">
+<button type="button">Get Data !</button>
+</div>
+
+</div>    
+
+
+</body>
+</html>

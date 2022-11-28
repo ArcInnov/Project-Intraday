@@ -14,3 +14,7 @@ Tried webscraping nse site very little luck
 Using request urlib and besutifulsoup4
 
 Now using nsepy library for hitorical data
+
+You cannot use pyhton and html simultaneously 
+
+Lets just create acommand line scrip for now
